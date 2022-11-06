@@ -31,8 +31,8 @@ hm = {'Rust': ('5% of 21k', 'https://www.linkedin.com/skill-assessments/Rust%20(
       'Django': ('5% of 156k','https://www.linkedin.com/skill-assessments/Django/report/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_skills_details%3BhD%2BMvwl5R0e5JnEW122HQA%3D%3D'),
       'OOP': ('5% of 1.1M','https://www.linkedin.com/skill-assessments/Object-Oriented%20Programming%20(OOP)/report/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_skills_details%3BhD%2BMvwl5R0e5JnEW122HQA%3D%3D'),
       'Agile': ('5% of 3.0M','https://www.linkedin.com/skill-assessments/Agile%20Methodologies/report/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_skills_details%3BhD%2BMvwl5R0e5JnEW122HQA%3D%3D'),
-      'IT Operations': ('',''),
-      '.NET Framework': ('',''),
-      'Bash': ('',''),
-      'Go': ('',''),
+      'IT Operations': ('30% of 1.4M','https://www.linkedin.com/skill-assessments/IT%20Operations/report/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_skills_details%3BgRQEtQtLS9iwZruXA8z4Tg%3D%3D'),
+      '.NET Framework': ('5% of 823k','https://www.linkedin.com/skill-assessments/.NET%20Framework/report/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_skills_details%3BgRQEtQtLS9iwZruXA8z4Tg%3D%3D'),
+      'Bash': ('5% of 330k','https://www.linkedin.com/skill-assessments/Bash/report/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_skills_details%3BgRQEtQtLS9iwZruXA8z4Tg%3D%3D'),
+      'Go': ('5% of 66k','https://www.linkedin.com/skill-assessments/Go%20(Programming%20Language)/report/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_skills_details%3BgRQEtQtLS9iwZruXA8z4Tg%3D%3D'),
       }
