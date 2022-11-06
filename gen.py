@@ -23,4 +23,7 @@ for word in vector:
         ar.append(hm[word][1])
         ar.append('\n')
 
+ar.append("This report was created using my software dubbed JD Ninja. "
+          "For you I've made it FOSS - Free and Open Source Software. "
+          "Check it out on my Github https://github.com/zeusAlgo/Jd_Ninja")
 print(''.join(ar))
