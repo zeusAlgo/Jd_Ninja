@@ -1,4 +1,4 @@
-Jd Ninja
+# Job Description Ninja
 
 Fruit Ninja, but for job descriptions
 
