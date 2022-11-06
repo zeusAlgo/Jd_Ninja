@@ -1,6 +1,8 @@
+from data import hm
 print('Please enter job description.')
 jd = input()
 
-ar = jd.split()
+ar, vec = jd.split(), []
 
-for
+for word in ar:
+    if
