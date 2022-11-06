@@ -73,4 +73,3 @@ hm = {'Rust': ('5% of 21k',
       'Go': ('5% of 66k',
              "https://www.linkedin.com/skill-assessments/Go%20(Programming%20Language)/report/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_skills_details%3BgRQEtQtLS9iwZruXA8z4Tg%3D%3D")
       }
-#

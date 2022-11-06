@@ -24,4 +24,3 @@ for word in vector:
         ar.append('\n')
 
 print(''.join(ar))
-
