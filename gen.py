@@ -20,9 +20,12 @@ ar = [f'\nHi {person_name}, the following message may be of assistance.\n', star
       "You may verify this on my profile. \n\n"]
 
 words_hs = set(s.split())  # Split the string by whitespaces and add result to hashset
+ct = 0
 
 for word in words_hs:  # If the word is a key in the hashmap, add its corresponding values to the array
     if word in hm:
+        ct += 1
+        ar.append(f"{ct}, ")
         ar.append(word)
         ar.append(': Top ')
         ar.append(hm[word][0])
