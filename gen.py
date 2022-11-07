@@ -1,10 +1,10 @@
 import sys
 from data import hm
 
-print("Please enter your conversational partner's name.")
+print("\nPlease enter your conversational partner's name.")
 person_name = input()
 
-print('Please enter job description.')
+print('\nPlease enter job description.')
 s = ''  # Add input to string
 for line in sys.stdin:
     if 'e' == line.rstrip(): break  # Press 'e' to continue
