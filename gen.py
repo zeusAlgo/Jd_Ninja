@@ -8,7 +8,7 @@ for line in sys.stdin:
     if 'e' == line.rstrip(): break
     s += line
 
-ar = ["For the skills listed in the job description, I've aced the corresponding LinkedIn Skills Assessments."
+ar = ["For the skills listed in the job description, I've aced the corresponding LinkedIn Skills Assessments. "
       "You may verify this on my profile. \n\n"]
 
 vector = s.split()
