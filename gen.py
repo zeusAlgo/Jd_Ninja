@@ -5,7 +5,7 @@ print('Please enter job description.')
 
 s = ''  # Add input to string
 for line in sys.stdin:
-    if 'e' == line.rstrip(): break
+    if 'e' == line.rstrip(): break  # Press 'e' to continue
     s += line
 
 # Remove unwanted characters from string
