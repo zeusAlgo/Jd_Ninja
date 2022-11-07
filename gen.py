@@ -5,11 +5,10 @@ print("\nPlease enter your conversational partner's name.")
 person_name = input()
 
 print('\nPlease enter job description.')
-s = []  # Add input to array
+s = ''  # Add input to string
 for line in sys.stdin:
-    if 'e' == line.rstrip(): break  # Press 'c' to continue
-    s.append(line)
-s = ''.join(s) # Convert input to string
+    if 'c' == line.rstrip(): break  # Press 'c' to continue
+    s += line
 
 # Remove unwanted characters from string
 to_remove_hs = {',', '.', '!', '?', '(', ')', '{', '}', '[', ']', ':', ';', '+', '-', '#', '$', '%', '&', '*', '@'}
