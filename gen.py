@@ -11,9 +11,9 @@ for line in sys.stdin:
 ar = ["For the skills listed in the job description, I've aced the corresponding LinkedIn Skills Assessments. "
       "You may verify this on my profile. \n\n"]
 
-vector = s.split()
+hs = set(s.split())
 
-for word in vector:
+for word in hs:
     if word in hm:
         ar.append(word)
         ar.append(': Top ')
