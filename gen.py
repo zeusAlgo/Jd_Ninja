@@ -25,7 +25,7 @@ ct = 0
 for word in words_hs:  # If the word is a key in the hashmap, add its corresponding values to the array
     if word in hm:
         ct += 1
-        ar.append(f"{ct}, ")
+        ar.append(f"{ct}. ")
         ar.append(word)
         ar.append(': Top ')
         ar.append(hm[word][0])
