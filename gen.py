@@ -30,4 +30,3 @@ ar.append(" \nMy app Job Description Ninja created the above report. "
           "For you it's FOSS - Free and Open Source Software. "
           "Check it out on my Github https://github.com/zeusAlgo/Jd_Ninja")
 print(''.join(ar))
-
