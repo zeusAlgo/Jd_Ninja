@@ -17,7 +17,7 @@ ar = ["\nFor the skills listed in the job description, I've aced the correspondi
 
 words_hs = set(s.split())  # Split the string by whitespaces and add result to hashset
 
-for word in words_hs:  # If the keyword is in data hashmap add it to the array
+for word in words_hs:  # If the word is a key in the hashmap, add its corresponding values to the array
     if word in hm:
         ar.append(word)
         ar.append(': Top ')
