@@ -15,7 +15,7 @@ to_remove_hs = {',', '.', '!', '?', '(', ')', '{', '}', '[', ']', ':', ';', '+',
 s = ''.join(c for c in s if c not in to_remove_hs)
 
 stars = '*' * 5
-ar = [f'Hi {person_name}, the following message may be of assistance.\n', stars,
+ar = [f'\nHi {person_name}, the following message may be of assistance.\n', stars,
       "\nFor the skills listed in the job description, I've aced the corresponding LinkedIn Skills Assessments. "
       "You may verify this on my profile. \n\n"]
 
