@@ -8,19 +8,15 @@ for line in sys.stdin:
     if 'e' == line.rstrip(): break
     s += line
 
-s = s.replace(':', '')
-s = s.replace('!', '')
-s = s.replace(',', '')
-s = s.replace(')', '')
-s = s.replace('(', '')
-s = s.replace(';', '')
+to_remove_hs = {':', '!', ',', '(', ')', '{', '}', ';', '+', '-'}
+s = ''.join(c for c in s if c not in to_remove_hs)
 
 ar = ["For the skills listed in the job description, I've aced the corresponding LinkedIn Skills Assessments. "
       "You may verify this on my profile. \n\n"]
 
-hs = set(s.split())
+words_hs = set(s.split())
 
-for word in hs:
+for word in words_hs:
     if word in hm:
         ar.append(word)
         ar.append(': Top ')
