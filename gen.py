@@ -3,20 +3,21 @@ from data import hm
 
 print('Please enter job description.')
 
-s = ''
+s = ''  # Add input to string
 for line in sys.stdin:
     if 'e' == line.rstrip(): break
     s += line
 
+# Remove unwanted characters from string
 to_remove_hs = {':', '!', ',', '(', ')', '{', '}', ';', '+', '-', '#', '$', '%', '&', '*', '@', '?'}
 s = ''.join(c for c in s if c not in to_remove_hs)
 
 ar = ["\nFor the skills listed in the job description, I've aced the corresponding LinkedIn Skills Assessments. "
       "You may verify this on my profile. \n\n"]
 
-words_hs = set(s.split())
+words_hs = set(s.split())  # Split the string by whitespaces and add result to hashset
 
-for word in words_hs:
+for word in words_hs:  # If the keyword is in data hashmap add it to the array
     if word in hm:
         ar.append(word)
         ar.append(': Top ')
