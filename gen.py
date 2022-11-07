@@ -9,7 +9,7 @@ for line in sys.stdin:
     s += line
 
 # Remove unwanted characters from string
-to_remove_hs = {':', '!', ',', '(', ')', '{', '}', ';', '+', '-', '#', '$', '%', '&', '*', '@', '?'}
+to_remove_hs = {':', '!', ',', '(', ')', '{', '}', '[', ']', ';', '+', '-', '#', '$', '%', '&', '*', '@', '?'}
 s = ''.join(c for c in s if c not in to_remove_hs)
 
 ar = ["\nFor the skills listed in the job description, I've aced the corresponding LinkedIn Skills Assessments. "
